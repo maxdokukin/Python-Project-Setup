@@ -1,0 +1,21 @@
+# Create directories
+New-Item -ItemType Directory -Name src
+New-Item -ItemType Directory -Name tests
+New-Item -ItemType Directory -Name data
+New-Item -ItemType Directory -Name data\raw
+New-Item -ItemType Directory -Name data\processed
+New-Item -ItemType Directory -Name docs
+New-Item -ItemType Directory -Name scripts
+New-Item -ItemType Directory -Name config
+
+# Create files
+New-Item -ItemType File -Path src\__init__.py
+New-Item -ItemType File -Path src\main.py
+New-Item -ItemType File -Path tests\__init__.py
+New-Item -ItemType File -Path tests\test_main.py
+New-Item -ItemType File -Path docs\index.md
+New-Item -ItemType File -Path scripts\example_script.py
+New-Item -ItemType File -Path config\config.yaml
+New-Item -ItemType File -Path .gitignore
+New-Item -ItemType File -Path requirements.txt
+New-Item -ItemType File -Path README.md
