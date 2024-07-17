@@ -1,5 +1,7 @@
 # Create directories
 New-Item -ItemType Directory -Name src
+New-Item -ItemType Directory -Name src\classes
+New-Item -ItemType Directory -Name src\functions
 New-Item -ItemType Directory -Name tests
 New-Item -ItemType Directory -Name data
 New-Item -ItemType Directory -Name data\raw
