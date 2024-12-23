@@ -1,6 +1,5 @@
 # Create directories
-mkdir -p src/classes src/functions tests data/raw data/processed docs scripts config
+mkdir -p src/classes src/functions tests data/raw data/processed doc scripts config
 
 # Create files
-touch src/__init__.py src/main.py tests/__init__.py tests/test_main.py docs/index.md scripts/example_script.py config/config.yaml .gitignore requirements.txt README.md
-
+touch src/__init__.py src/main.py tests/__init__.py tests/test_main.py doc/index.md scripts/example_script.py config/config.yaml .gitignore requirements.txt README.md
